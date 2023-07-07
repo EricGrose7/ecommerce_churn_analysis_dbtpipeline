@@ -44,7 +44,7 @@ The churn prediction phase involves the development and evaluation of machine le
 
 ### 5. Data Transformation and Modeling with dbt
 
-dbt (data build tool) is used to transform the data in our PostgreSQL database and to create data models that are more suitable for analysis and machine learning. This includes the creation of several dbt models and tests to ensure data quality.
+dbt (data build tool) is used to transform the data in our PostgreSQL database and to create data models that are more suitable for analysis and machine learning. This includes using a lookup table to translate product category names and append a churn flag.
 
 ### 6. Visualization
 
