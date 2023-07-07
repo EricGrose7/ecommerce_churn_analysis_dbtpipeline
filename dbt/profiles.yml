@@ -1,0 +1,11 @@
+ecom_etl:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      pass: postgres
+      port: 5432
+      dbname: ecommerce
+      schema: public
