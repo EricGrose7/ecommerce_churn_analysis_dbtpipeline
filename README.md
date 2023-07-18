@@ -10,7 +10,6 @@ The main objectives of this project are:
 2. Perform a churn analysis to understand the characteristics and behaviors of churned customers.
 3. Predict customer churn using machine learning models.
 4. Transform and model the data using dbt (data build tool).
-5. Visualize key business insights using Power BI.
 
 ## Data
 
@@ -46,17 +45,12 @@ The churn prediction phase involves the development and evaluation of machine le
 
 dbt (data build tool) is used to transform the data in our PostgreSQL database and to create data models that are more suitable for analysis and machine learning. This includes using a lookup table to translate product category names and append a churn flag.
 
-### 6. Visualization
-
-The visualization phase includes creating a Power BI dashboard to display key business insights. This includes the creation of various charts and tables to visualize trends, patterns, and anomalies in the data.
-
 ## Tools Used
 
 - Python: Data preprocessing and analysis
 - PostgreSQL: Database to store and retrieve the data
 - Jupyter Notebook: Interactive coding environment used for data analysis
 - dbt: Data build tool for transforming and modeling the data
-- Power BI: Data visualization tool
 - GitHub: Version control
 
 ## How to Use
@@ -68,7 +62,7 @@ To use this repository, first clone it to your local machine. Then, navigate to 
 This project is still ongoing. The next steps include:
 
 - Refine the churn prediction models.
-- Add more visualizations to the Power BI dashboard.
+- Add visualizations to the BI dashboard.
 
 ## Contribution
 
